@@ -13,11 +13,9 @@ export const Header = () => {
           to="/"
           className={getActiveClass}
         >
-          Home
+          ToDo
         </NavLink>
-        <NavLink to="/todo" className={getActiveClass}>ToDo</NavLink>
-        {/* <a href="/">Home</a>
-        <a href="/todo">ToDo</a> */}
+        <NavLink to="/list" className={getActiveClass}>List</NavLink>
       </div>
     </header>
   );

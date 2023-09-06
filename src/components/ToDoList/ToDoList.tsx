@@ -3,9 +3,9 @@ import "./ToDoList.scss";
 import { ToDoListItem } from "./ToDoListItem/ToDoListItem";
 
 export const TodoList = (props: {
-  todos: ToDo[];
-  updateToDo: Function;
-  deleteToDo: Function;
+  todos: ToDo[],
+  updateToDo: Function,
+  deleteToDo: Function
 }) => {
   const checkedList = () => {
     return props.todos
