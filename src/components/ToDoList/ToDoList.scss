@@ -1,26 +1,26 @@
-.todoContainer {
-    width: 100%;
-    padding: 15px;
-}
+// .todoContainer {
+//     width: 100%;
+//     padding: 15px;
+// }
 
-.todoList {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 0;
-    list-style: none;
-}
-.todoList.failed:empty:after {
-    content: 'Нет задач на выполнение';
-}
+// .todoList {
+//     width: 100%;
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+//     padding-left: 0;
+//     list-style: none;
+// }
+// .todoList.failed:empty:after {
+//     content: 'Нет задач на выполнение';
+// }
 
-.todoList.failed:after {
-    width: 100%;
-    display: block;
-    text-align: center;
-    font-size: 12px;
-    color: #aaa;
-}
+// .todoList.failed:after {
+//     width: 100%;
+//     display: block;
+//     text-align: center;
+//     font-size: 12px;
+//     color: #aaa;
+// }
 
 .todoList.completed {
     position: relative;
@@ -42,10 +42,10 @@
     left: calc(50% - 75px);
 }
 
-.todoList.completed:after {
-    width: 100%;
-    display: block;
-    text-align: center;
-    font-size: 12px;
-    color: #aaa;
-}
+// .todoList.completed:after {
+//     width: 100%;
+//     display: block;
+//     text-align: center;
+//     font-size: 12px;
+//     color: #aaa;
+// }
