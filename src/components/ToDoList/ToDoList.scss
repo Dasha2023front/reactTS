@@ -22,25 +22,25 @@
 //     color: #aaa;
 // }
 
-.todoList.completed {
-    position: relative;
-    padding: 60px 0 0 0;
-}
+// .todoList.completed {
+//     position: relative;
+//     padding: 60px 0 0 0;
+// }
 
-.todoList.completed:empty:after {
-    content: 'Нет выполненых задач';
-}
+// .todoList.completed:empty:after {
+//     content: 'Нет выполненых задач';
+// }
 
-.todoList.completed:before {
-    content: '';
-    width: 150px;
-    height: 1px;
-    background: #d8e5e0;
+// .todoList.completed:before {
+//     content: '';
+//     width: 150px;
+//     height: 1px;
+//     background: #d8e5e0;
 
-    position: absolute;
-    top: 25px;
-    left: calc(50% - 75px);
-}
+//     position: absolute;
+//     top: 25px;
+//     left: calc(50% - 75px);
+// }
 
 // .todoList.completed:after {
 //     width: 100%;
